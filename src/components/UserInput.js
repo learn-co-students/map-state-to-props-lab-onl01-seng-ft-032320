@@ -28,6 +28,7 @@ class UserInput extends Component {
             id="username"
             onChange={this.handleInputChange}
             placeholder="username"
+            
           />
         </p>
         <p>
@@ -36,6 +37,7 @@ class UserInput extends Component {
             id="hometown"
             onChange={this.handleInputChange}
             placeholder="hometown"
+            
           />
         </p>
         <input type="submit" />
