@@ -13,7 +13,7 @@ class App extends Component {
     );
   }
 }
-mapStateToProps=state =>{
+const mapStateToProps=state =>{
   return {
     users: state.users
 
